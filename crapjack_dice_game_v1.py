@@ -6,7 +6,7 @@ import random
 
 # custom function that rolls two 6 sided "dice" and stores the results as a tuple
 def roll_dice ():
-    """Roll four dice and return their face values as a tuple"""
+    """Roll two dice and return their face values as a tuple"""
     die1 = random.randrange(1, 7)
     die2 = random.randrange(1, 7)
     return (die1, die2)
